@@ -32,6 +32,7 @@ const Card = ({ project, index }: Props) => {
           priority
           src={project.img}
           alt={project.alt}
+          placeholder="blur"
           className="group-hover:scale-110 duration-500 transition-all"
         />
       </div>

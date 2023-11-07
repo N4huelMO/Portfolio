@@ -49,6 +49,7 @@ const Header = () => {
                 setIsOpen(!isOpen);
               }}
               className="flex flex-col justify-center items-center md:hidden"
+              aria-label="Toggle menu"
             >
               <span
                 className={`bg-emerald-600 block transition-all duration-200 

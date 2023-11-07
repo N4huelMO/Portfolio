@@ -14,6 +14,8 @@ const gabarito = Gabarito({
 
 export const metadata: Metadata = {
   title: "Portfolio | Nahuel Mesa",
+  description:
+    "My portfolio, where you can see all my projects and what technologies i know",
 };
 
 export default function RootLayout({

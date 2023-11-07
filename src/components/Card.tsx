@@ -27,7 +27,11 @@ const Card = ({ project, index }: Props) => {
       style={{ animationDelay: `${index * 100}ms` }}
       className="max-w-md max-h-min bg-neutral-900/80 rounded-lg border-2 border-neutral-700/70 group hover:border-emerald-600/80 transition-all duration-300 flex flex-col animate-fade-right hover:shadow-lg hover:shadow-emerald-900/70"
     >
-      <div className="overflow-hidden rounded-t-md">
+      <Link
+        href={project.liveProject}
+        className="overflow-hidden rounded-t-md cursor-pointer"
+        target="_blank"
+      >
         <Image
           priority
           src={project.img}
@@ -36,7 +40,7 @@ const Card = ({ project, index }: Props) => {
           sizes="(max-width: 768px) 300px, 25vw"
           className="group-hover:scale-110 duration-500 transition-all"
         />
-      </div>
+      </Link>
 
       <div className="p-5 flex flex-col flex-1">
         <p className="text-2xl text-neutral-500 group-hover:text-emerald-400 transition-all duration-300">

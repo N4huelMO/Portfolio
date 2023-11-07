@@ -6,10 +6,10 @@ const About = () => {
     <div className="my-10 2xl:mt-16 xl:w-4/5 m-auto">
       <div className="text-2xl animate-fade-right">
         <p className="mb-4">
-          I<Span>&apos;</Span>m a autodidact web development
-          <Span>,</Span> with great desire to get started in this field to able
-          progress and enrich my knowledge
-          <Span>,</Span> in addition overcoming and facing the challenges that
+          I<Span>&apos;</Span>m an autodidact web development
+          <Span>,</Span> with strong desire to get started in this field to be
+          able progress and enrich my knowledge
+          <Span>,</Span> in addition I overcoming and facing the challenges that
           come with it
           <Span>.</Span>
         </p>
@@ -24,7 +24,7 @@ const About = () => {
 
       <div className="mt-8">
         <p className="text-3xl animate-fade-right animate-ease-out animate-delay-300">
-          Technologies that i use<Span>:</Span>
+          Technologies that I use<Span>:</Span>
         </p>
 
         <div className="mt-5 grid grid-cols-2 2xl:grid-cols-4	gap-2 animate-fade-right animate-ease-out animate-delay-500">

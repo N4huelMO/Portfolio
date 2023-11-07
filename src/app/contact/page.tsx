@@ -6,11 +6,11 @@ const Contact = () => {
   return (
     <div className="mt-16 mx-auto xl:w-4/5">
       <h2 className="m-auto text-center text-xl sm:text-3xl lg:text-4xl leading-tight animate-fade-right">
-        Do you like what i do<Span>?</Span> Do you have any doubt about me or my
+        Do you like what I do<Span>?</Span> Do you have any doubt about me or my
         projects
         <Span>?</Span>
         <br />
-        Contact me filling the form or through my social media
+        Contact me filling out the form or through my social media
         <Span>.</Span>
       </h2>
 

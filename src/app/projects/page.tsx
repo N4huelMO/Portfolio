@@ -9,9 +9,9 @@ const Projects = () => {
     <div className="my-10 2xl:mt-16">
       <div className="text-3xl text-center xl:w-3/5 m-auto animate-fade-right">
         <p>
-          Here you can see some projects that i developed
+          Here you can see some projects that I developed
           <Span>.</Span> You can enter
-          <Span>,</Span> try them and see with what technologies i worked
+          <Span>,</Span> try them and see with what technologies I worked
           <Span>.</Span>
         </p>
       </div>

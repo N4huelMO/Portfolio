@@ -2,6 +2,7 @@ import reactMovies from "@/img/ReactMovies.png";
 import pathfinding from "@/img/Pathfinding.png";
 import pokedex from "@/img/Pokedex.png";
 import toDo from "@/img/ToDo.png";
+import weather from "@/img/Weather.png";
 
 export const projects = [
   {
@@ -58,5 +59,23 @@ export const projects = [
     ],
     portfolio: "https://github.com/N4huelMO/Better-To-Do-List",
     liveProject: "https://better-to-do-list-n4huelmo.vercel.app/",
+  },
+  {
+    img: weather,
+    name: "Weather Next.js Days",
+    alt: "weather next.js days",
+    description:
+      "On this website you can search any city or country in the world to see the current weather with highlights of the day and 6-day forecast. You can also use geolocation.",
+    tags: [
+      "Next.js",
+      "Axios",
+      "TypeScript",
+      "Tailwind",
+      "Tailwind Animated",
+      "React Icons",
+      "Next Themes",
+    ],
+    portfolio: "https://github.com/N4huelMO/Weather-Next.js-Days",
+    liveProject: "https://weather-next-js-days.vercel.app//",
   },
 ];
